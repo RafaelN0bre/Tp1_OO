@@ -49,7 +49,7 @@ public class JogoDaForca {
 		catalogo[3][3] = "Eucalipto";
 		catalogo[3][4] = "Pinheiro";
 		catalogo[3][5] = "Acácia";
-		catalogo[3][6] = "Jacarand�";
+		catalogo[3][6] = "Jacarandá";
 		catalogo[3][7] = "Mogno";
 		catalogo[3][8] = "Castanheira";
 		catalogo[3][9] = "Sequóia";
@@ -57,7 +57,7 @@ public class JogoDaForca {
 		
 		catalogo[4][0] = "Objetos";
 		catalogo[4][1] = "Garfo";
-		catalogo[4][2] = "Lumin�ria";
+		catalogo[4][2] = "Luminária";
 		catalogo[4][3] = "Janela";
 		catalogo[4][4] = "Garrafa";
 		catalogo[4][5] = "Prato";
