@@ -17,7 +17,7 @@ public class JogoDaForca {
 		catalogo[0][7] = "Leão";
 		catalogo[0][8] = "Leopardo";
 		catalogo[0][9] = "Zebra";
-		catalogo[0][10] = "Macaco";
+		catalogo[0][10] = "Gorila";
 
 		catalogo[1][0] = "Cores";
 		catalogo[1][1] = "Azul";
