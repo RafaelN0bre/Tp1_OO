@@ -125,14 +125,14 @@ public class JogoDaForca {
 		System.out.println("2. Exclusão");
 		System.out.println("3. Busca");
 		
-		int opcaoEscolhidaGerenciarTemas =  ler.nextInt();
+		String opcaoEscolhidaGerenciarTemas =  ler.next();
 		
 		switch (opcaoEscolhidaGerenciarTemas) {
-		case 1: cadastroTemas();	
+		case "1": cadastroTemas();	
 		break;
-		case 2: exclusaoTemas();
+		case "2": exclusaoTemas();
 		break;
-		case 3: buscaTemas();
+		case "3": buscaTemas();
 		break;
 		default: {
 			System.out.println("Opção inválida, tente novamente\n");
@@ -290,16 +290,16 @@ public class JogoDaForca {
 		System.out.println("3. Busca");
 		System.out.println("4. Listagem");
 		
-		int opcaoEscolhidaGerenciarPalavras =  ler.nextInt();
+		String opcaoEscolhidaGerenciarPalavras =  ler.next();
 		
 		switch (opcaoEscolhidaGerenciarPalavras) {
-		case 1: cadastroPalavras();
+		case "1": cadastroPalavras();
 		break;
-		case 2: exclusaoPalavras();
+		case "2": exclusaoPalavras();
 		break;
-		case 3: buscaPalavras();
+		case "3": buscaPalavras();
 		break;
-		case 4: listagem();
+		case "4": listagem();
 		break;
 		default: {
 			System.out.println("Opção inválida, tente novamente\n");
